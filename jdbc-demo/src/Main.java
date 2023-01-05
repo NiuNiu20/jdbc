@@ -4,6 +4,7 @@ import java.sql.Statement;
 
 public class Main {
     public static void main(String[] args) throws Exception {
+         // git
         Class.forName("com.mysql.jdbc.Driver");
         String url = "jdbc:mysql://127.0.0.1:3306/db1?useSSL=false";
         String username = "root";
